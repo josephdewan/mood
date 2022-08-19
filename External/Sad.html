@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta hyyp-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <title>Document</title>
+
+    <style>
+      .box {
+        display: flex;
+      }
+      model-viewer {
+        width: 800px;
+        height: 600px;
+        margin: 0, auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div>
+        <h1>I'm sorry that you're sad :(</h1>
+        <br />
+        <h2>Look at this 3D model that you can interact with!</h2>
+
+        <div>
+          <model-viewer
+            src="/Test/TestHead2Reality_LOD0.glb"
+            camera-controls
+            auto-rotate
+            disable-zoom
+          ></model-viewer>
+        </div>
+        <h2>Are you still sad?</h2>
+        <br />
+        <a href="Sadno.html">No!</a> <br />
+        <a href="Sadyes.html">Yes!</a>
+      </div>
+    </div>
+  </body>
+</html>
